@@ -7,7 +7,7 @@ packages.dependencies = updateVersions('dependencies');
 packages.devDependencies = updateVersions('devDependencies');
 
 
-result = fs.writeFile('./package.json', JSON.stringify(packages, null, 4), function(err) {
+result = fs.writeFile('../package.json', JSON.stringify(packages, null, 4), function(err) {
   if (err) console.log("ERROR: ", err);
 });
 

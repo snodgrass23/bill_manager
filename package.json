@@ -1,37 +1,37 @@
 {
-    "name": "b12prj",
-    "version": "0.0.2",
+    "name": "bill_manager",
+    "version": "0.0.1",
+    "repository": "https://github.com/snodgrass23/bill_manager",
     "directories": {},
     "engines": {
         "node": ">=0.10.0",
         "npm": ">=1.1"
     },
     "dependencies": {
-        "express": "3.4.1",
-        "connect": "2.9.1",
+        "express": "3.4.7",
         "connect-timeout": "0.0.1",
-        "connect-redis": "1.4.5",
+        "connect-redis": "1.4.6",
         "connect-parallel": "0.0.3",
-        "jade": "0.35.0",
-        "stylus": "0.38.0",
-        "mongoose": "3.6.20",
+        "jade": "1.1.4",
+        "stylus": "0.42.0",
+        "mongoose": "3.8.4",
         "mongoose-utils": "0.0.2",
-        "redis": "0.8.6",
+        "redis": "0.10.0",
         "bcrypt": "0.7.7",
         "email": "0.2.6",
-        "nib": "1.0.1",
+        "nib": "1.0.2",
         "async": "0.2.9",
         "underscore": "1.5.2"
     },
     "devDependencies": {
-        "mocha": "latest",
-        "should": "latest",
-        "grunt": "latest",
-        "bower": "latest",
-        "grunt-contrib-clean": "latest",
-        "grunt-contrib-copy": "latest",
-        "grunt-contrib-concat": "latest",
-        "grunt-contrib-uglify": "latest"
+        "mocha": "1.17.0",
+        "should": "2.1.1",
+        "grunt": "0.4.2",
+        "bower": "1.2.8",
+        "grunt-contrib-clean": "0.5.0",
+        "grunt-contrib-copy": "0.5.0",
+        "grunt-contrib-concat": "0.3.0",
+        "grunt-contrib-uglify": "0.2.7"
     },
     "scripts": {
         "lock": "scripts/module_lock.js"
